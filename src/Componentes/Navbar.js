@@ -14,7 +14,6 @@ const BarraNav = () => {
           
           <Nav >
             <Nav.Link className='links' href="#inicio">Inicio</Nav.Link>
-            <Nav.Link className='links' href="#conocenos">Conocenos</Nav.Link>
             <Nav.Link className='links' href="#servicios">Servicios</Nav.Link>
             <Nav.Link className='links' href="#contacto">Contacto</Nav.Link>
           </Nav>
