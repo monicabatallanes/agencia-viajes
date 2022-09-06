@@ -5,10 +5,10 @@ import './hero.css';
 
 const Hero = () => {
     return (
-        <div className='containerHero'>
+        <section className='containerHero'>
             <img className='imgHero'src={imagen} alt='bariloche' />
             <img className='imgMarca' src={marca} alt="marca" />
-        </div>
+        </section>
     );
 };
 

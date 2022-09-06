@@ -1,0 +1,36 @@
+.titulo{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.viajes{
+    width: 100%;
+    margin: 30px;
+   
+}
+
+.img-viajes{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 560px){
+    .titulo{
+        font-size: medium;
+    }
+    section{
+        flex-direction: column;
+    }
+}
