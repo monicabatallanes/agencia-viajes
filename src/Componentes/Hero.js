@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <section className='containerHero'>
             <img className='imgHero'src={imagen} alt='bariloche' />
-            <img className='imgMarca' src={marca} alt="marca" />
+            <img className='imgMarca' src={marca} alt='marca' />
         </section>
     );
 };

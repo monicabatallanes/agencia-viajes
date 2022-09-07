@@ -1,6 +1,7 @@
 .container-cenas{
     display: flex;
     justify-content: space-around;
+    margin: 50px;
 }
 
 .img-cenas{
@@ -9,5 +10,11 @@
     border-radius: 10px;
 }
 
+@media (max-width: 560px){
+    .container-cenas{
+        flex-direction: column;
+        margin-left: 40px;
+    }
+}
 
 

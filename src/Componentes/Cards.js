@@ -7,7 +7,7 @@ import './cards.css';
 
 const Cards = () => {
     return (
-        <div>
+        
           <CardGroup className='cardGroup'>
             <Card className='card'>
                <Card.Img className='imgCard' variant="top" src={entretenimientos} alt='entretenimientos'/>
@@ -46,7 +46,7 @@ const Cards = () => {
               </Card.Body>
             </Card>
           </CardGroup>
-        </div>
+        
     );
 }
 

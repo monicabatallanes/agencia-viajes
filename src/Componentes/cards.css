@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 20px;
+    margin: 50px;
 }
 
 .card{
@@ -20,4 +20,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 790px){
+    .cardGroup{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin: 60px;
+    }
 }

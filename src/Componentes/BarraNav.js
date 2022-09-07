@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Container, Nav} from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 import logo from '../Images/EgreMax-marca-Rojo-03.jpg';
 import './barraNav.css';
 
@@ -7,7 +7,7 @@ const BarraNav = () => {
     return (
         
         
-        <Container className='container-nav'>
+        <Navbar className='container-nav'>
           <Navbar.Brand href="#home">
             <img className='logo' src={logo} alt='logoEgremax'/>
           </Navbar.Brand>
@@ -17,9 +17,7 @@ const BarraNav = () => {
             <Nav.Link className='links' href="#servicios">Servicios</Nav.Link>
             <Nav.Link className='links' href="#contacto">Contacto</Nav.Link>
           </Nav>
-          
-          
-        </Container>
+        </Navbar>
       
         
     );

@@ -6,7 +6,7 @@ const Viajes = () => {
     return (
         <>
         <div className='titulo'>
-            <h1 >Nuestros servicios</h1>
+            <h1 className='text-white'>Nuestros servicios</h1>
         </div>
         <section className='container row'>
             <div className='viajes col'> 
