@@ -1,5 +1,7 @@
+import Cards from "./Componentes/Cards";
+import Cenas from "./Componentes/Cenas";
 import Hero from "./Componentes/Hero";
-import BarraNav from "./Componentes/Navbar";
+import BarraNav from "./Componentes/BarraNav";
 import Viajes from "./Componentes/Viajes";
 
 
@@ -9,11 +11,15 @@ function App() {
     <div className="App">
       <BarraNav/>
       <Hero/>
-    <div className='container mt-5'>
-      <Viajes/>
-    </div>
+        <section>
+          <Viajes/>
+          <Cenas/>
+          <Cards/>
+        </section>
+      
       
     </div>
+    
   );
 }
 

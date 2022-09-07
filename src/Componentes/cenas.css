@@ -1,0 +1,13 @@
+.container-cenas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-cenas{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+

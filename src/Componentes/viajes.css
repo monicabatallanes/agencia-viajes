@@ -6,15 +6,16 @@
     align-items: center;
 }
 
-section{
+.container{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 50px;
 }
 
 .viajes{
     width: 100%;
-    margin: 30px;
-   
+    margin-left: 100px ;
 }
 
 .img-viajes{
