@@ -1,0 +1,86 @@
+.titulo{
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-style: italic;
+    text-shadow: 0 0 0.2em rgb(197, 60, 41), 0 0 0.2em rgb(197, 60, 41), 0 0 0.2em rgb(197, 60, 41);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor-tarjeta{
+    display: inline-block;
+}
+.contenedor-tarjeta:hover figure{
+    -webkit-transform: perspective(600px) rotateY(180deg);
+    -ms-transform: pespective(600px) rotateY(180deg);
+    -o-transform: perspective(600px) rotateY(180deg);
+    transform: perspective(600px) rotateY(180deg);
+    box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.49);
+    -webkit-box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.49);
+}
+
+figure{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(600px) rotateY(0deg);
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.img-viajes, .offside{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all ease .5s;
+}
+.img-viajes{
+    display: block;
+    backface-visibility: hidden;
+}
+
+.offside{
+    position: absolute;
+    top: 0;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    overflow: auto;
+}
+.texto{
+    margin: 30px;
+}
+
+h3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: azure;
+}
+
+@media (max-width: 560px){
+    .titulo{
+        font-size: medium;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+    }
+    .viajes{
+        margin-left: 40px;
+    }
+}

@@ -16,10 +16,15 @@
     border-radius: 10px;
 }
 
+.cardGroup:nth-child(3){
+    position: relative;
+}
+
 .title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 10px;
+    margin-left: 140px;
+    font-size: larger;
 }
 
 @media (max-width: 790px){

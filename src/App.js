@@ -1,9 +1,7 @@
-import Cards from "./Componentes/Cards";
-import Cenas from "./Componentes/Cenas";
-import Hero from "./Componentes/Hero";
-import BarraNav from "./Componentes/BarraNav";
-import Viajes from "./Componentes/Viajes";
-
+import Cards from './Componentes/Cards';
+import Hero from './Componentes/Hero';
+import BarraNav from './Componentes/BarraNav';
+import Servicios from './Componentes/Servicios';
 
 
 function App() {
@@ -12,12 +10,9 @@ function App() {
       <BarraNav/>
       <Hero/>
         <section>
-          <Viajes/>
-          <Cenas/>
+          <Servicios/>
           <Cards/>
         </section>
-      
-      
     </div>
     
   );

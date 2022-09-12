@@ -12,7 +12,6 @@ const Cards = () => {
             <Card className='card'>
                <Card.Img className='imgCard' variant="top" src={entretenimientos} alt='entretenimientos'/>
                <Card.Body>
-               <Card.Title className='title'>Entretenimientos</Card.Title>
                <Card.Text>
                    Podemos organizar: 
                  * Fiestas temáticas
@@ -23,7 +22,6 @@ const Cards = () => {
             <Card className='card'>
                <Card.Img className='imgCard' variant="top" src={conjuntos} alt='conjuntos'/>
                <Card.Body>
-               <Card.Title className='title'>Conjuntos</Card.Title>
                <Card.Text>
                   Los conjuntos están compuestos por: 
                  * Pantalones
