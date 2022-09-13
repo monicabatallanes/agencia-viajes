@@ -13,9 +13,10 @@ const Cards = () => {
                <Card.Img className='imgCard' variant="top" src={entretenimientos} alt='entretenimientos'/>
                <Card.Body>
                <Card.Text>
-                   Podemos organizar: 
-                 * Fiestas temáticas
-                 * Torneos.
+                  Te organizamos:
+                  <br /> 
+                  Fiestas temáticas y
+                  Torneos.
                </Card.Text>
                </Card.Body>
             </Card>
@@ -23,12 +24,9 @@ const Cards = () => {
                <Card.Img className='imgCard' variant="top" src={conjuntos} alt='conjuntos'/>
                <Card.Body>
                <Card.Text>
-                  Los conjuntos están compuestos por: 
-                 * Pantalones
-                 * Remeras
-                 * Camperas
-                 * Buzos y 
-                 * Gorras.{' '}
+                  Los conjuntos están compuestos por:
+                  <br /> 
+                  Pantalones, Remeras, Camperas, Buzos y Gorras.{' '}
                </Card.Text>
                </Card.Body>
             </Card>
@@ -38,8 +36,9 @@ const Cards = () => {
               <Card.Title className='title'>Alquiler</Card.Title>
               <Card.Text>
                  Para ocasiones especiales, te ofrecemos el alquiler de:
-                 * Trajes y
-                 * Vestidos.
+                 <br />
+                  Trajes y
+                  Vestidos.
               </Card.Text>
               </Card.Body>
             </Card>

@@ -1,0 +1,36 @@
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: azure;
+}
+
+.contenedor-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-footer{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 20px;
+}
+
+.marca{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: azure;
+}
+
+.col{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: azure;
+}
