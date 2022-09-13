@@ -9,7 +9,7 @@ const Servicios = () => {
     return (
         <>
         <div className='titulo'>
-            <h1 className='text-white'>Te ofrecemos</h1>
+            <h1>Te ofrecemos</h1>
         </div>
         <section className='container row'>
             <div className='contenedor-tarjeta'>
@@ -17,7 +17,7 @@ const Servicios = () => {
                 <img className='img-viajes' src={viajes} alt="viajes" />
                 <figcaption className='offside'>
                     <div className='texto'>
-                    <p> Nuestros destinos</p>
+                    <h3> Nuestros destinos</h3>
                     <p>  * Bariloche</p>
                     <p>  * Carlos Paz</p>
                     <p>  * Camboriú</p>
@@ -33,7 +33,7 @@ const Servicios = () => {
                 <img className='img-viajes' src={cenas} alt="cenas" />
                 <figcaption className='offside'>
                     <div className='texto'>
-                    <p> Cenas de egresados de:</p>
+                    <h3> Cenas de egresados de:</h3>
                     <p>  * Primario</p>
                     <p>  * Secundario</p>
                     <p>  * Facultades</p>
@@ -47,7 +47,7 @@ const Servicios = () => {
             <div className='contenedor-tarjeta'>
               <figure>
                 <img className='img-viajes' src={fiesta15} alt="fiesta15años" />
-                <h3> Celebramos tus 15 años</h3>
+                <h2> Celebramos tus 15 años</h2>
                 <figcaption className='offside'>
                    <img className='img-viajes' src={fiesta15años} alt="fiesta_15" />
                   

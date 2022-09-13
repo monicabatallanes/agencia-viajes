@@ -6,8 +6,9 @@
     justify-content: center;
     align-items: center;
     font-size: xx-large;
-    font-style: italic;
-    text-shadow: 0 0 0.2em rgb(197, 60, 41), 0 0 0.2em rgb(197, 60, 41), 0 0 0.2em rgb(197, 60, 41);
+    text-shadow: 0 0 0.5em rgb(197, 60, 41), 0 0 0.5em rgb(197, 60, 41), 0 0 0.5em rgb(197, 60, 41);
+    font-family: 'Roboto', sans-serif;
+    color: azure;
 }
 
 .container{
@@ -62,9 +63,12 @@ figure{
 }
 .texto{
     margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: larger;
 }
 
-h3{
+h2{
     position: absolute;
     top: 0;
     right: 0;
