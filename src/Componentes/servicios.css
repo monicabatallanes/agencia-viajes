@@ -1,7 +1,7 @@
 .titulo{
     width: 100%;
     height: fit-content;
-    margin-top: 30px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,9 +16,11 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .contenedor-tarjeta{
     display: inline-block;
 }
+
 .contenedor-tarjeta:hover figure{
     -webkit-transform: perspective(600px) rotateY(180deg);
     -ms-transform: pespective(600px) rotateY(180deg);
@@ -40,7 +42,6 @@ figure{
     background: #ADA996;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .img-viajes, .offside{
@@ -49,6 +50,7 @@ figure{
     border-radius: 10px;
     transition: all ease .5s;
 }
+
 .img-viajes{
     display: block;
     backface-visibility: hidden;
@@ -61,6 +63,7 @@ figure{
     backface-visibility: hidden;
     overflow: auto;
 }
+
 .texto{
     margin: 30px;
     font-family: 'Roboto', sans-serif;
@@ -79,12 +82,25 @@ h2{
     .titulo{
         font-size: medium;
     }
+    .contenedor-tarjeta{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
     .container{
         flex-direction: column;
         justify-content: center;
         margin: 10px;
     }
-    .viajes{
-        margin-left: 40px;
+    .img-viajes{
+        width: 250px;
+        height: 250px;
+    }
+    figure{
+        width: 250px;
+        height: 250px;
+    }
+    h2{
+        margin-left: 15px;
     }
 }
