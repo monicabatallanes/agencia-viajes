@@ -4,11 +4,12 @@ import entretenimientos from '../Images/entret-eg.jpg';
 import conjuntos from '../Images/conjuntos-eg.jpg';
 import alquiler from '../Images/alquiler-eg.jpg';
 import './cards.css';
+import Button from 'react-bootstrap/Button';
 
 const Cards = () => {
     return (
-        
-          <CardGroup className='cardGroup'>
+         <>
+         <CardGroup className='cardGroup'>
             <Card className='card'>
                <Card.Img className='imgCard' variant="top" src={entretenimientos} alt='entretenimientos'/>
                <Card.Body>
@@ -42,7 +43,11 @@ const Cards = () => {
               </Card.Body>
             </Card>
           </CardGroup>
-        
+          <div className='contenedor-button'>
+            <Button className='button' variant="outline-danger" href='#inicio'>Ir al inicio</Button> 
+          </div>
+         </>
+          
     );
 }
 

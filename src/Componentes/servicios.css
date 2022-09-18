@@ -103,4 +103,8 @@ h2{
     h2{
         margin-left: 15px;
     }
+    .texto{
+        margin: 20px;
+        font-size: medium;
+    }
 }

@@ -12,7 +12,7 @@ const BarraNav = () => {
             <img className='logo' src={logo} alt='logoEgremax'/>
           </Navbar.Brand>
           
-          <Nav >
+          <Nav id='inicio'>
             <Nav.Link className='links' href="#inicio">Inicio</Nav.Link>
             <Nav.Link className='links' href="#servicios">Servicios</Nav.Link>
             <Nav.Link className='links' href="#contacto">Contacto</Nav.Link>

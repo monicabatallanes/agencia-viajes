@@ -14,12 +14,10 @@ const Footer = () => {
                   <p>Agente estudiantil</p>
                 </div>
             </div>
-            <div className='col'>
+            <div className='info-extra col'>
                 <p>Dirección: </p>
                 <p>Todos los derechos reservados.</p>
-            
             </div>
-            
         </footer>
     );
 };
