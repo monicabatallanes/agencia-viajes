@@ -23,12 +23,35 @@
     border-radius: 10px;
 }
 
+.contenedor-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.button{
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid rgb(172, 24, 24);
+    border-radius: 5px;
+    background-color: rgb(172, 24, 24);
+    color: white;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    transition: ease 0.3s;
+}
+
 @media (max-width: 790px){
     .cardGroup{
         display: flex;
         flex-direction: column;
         margin-top: 20px;
         padding-bottom: 30px;
+        justify-content: center;
+        padding-left: 40px;
     }
     .card{
         width: 250px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import marca from '../Images/EgreMax-marca.jpg';
+import marca from '../Images/Egremax1.jpg';
 import imagen from '../Images/Bariloche1.jpg';
 import './hero.css';
 

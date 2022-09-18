@@ -11,7 +11,7 @@ const Servicios = () => {
         <div className='titulo'>
             <h1>Te ofrecemos</h1>
         </div>
-        <section className='container row'>
+        <section id='servicios' className='container row'>
             <div className='contenedor-tarjeta'>
               <figure>
                 <img className='img-viajes' src={viajes} alt="viajes" />

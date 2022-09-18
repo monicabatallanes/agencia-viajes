@@ -34,3 +34,9 @@
     font-weight: 200;
     color: azure;
 }
+
+@media (max-width: 560px){
+    .info-extra{
+        display: none;
+    }
+}
