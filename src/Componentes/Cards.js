@@ -2,7 +2,7 @@ import React from 'react';
 import {CardGroup, Card } from 'react-bootstrap';
 import entretenimientos from '../Images/entret-eg.jpg';
 import conjuntos from '../Images/conjuntos-eg.jpg';
-import alquiler from '../Images/alquileres-eg.jpg';
+import alquiler from '../Images/alquiler-eg.jpg';
 import './cards.css';
 
 const Cards = () => {
@@ -33,7 +33,6 @@ const Cards = () => {
             <Card className='card'>
               <Card.Img className='imgCard' variant="top" src={alquiler} alt='alquiler'/>
               <Card.Body>
-              <Card.Title className='title'>Alquiler</Card.Title>
               <Card.Text>
                  Para ocasiones especiales, te ofrecemos el alquiler de:
                  <br />

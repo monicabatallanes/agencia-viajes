@@ -1,0 +1,30 @@
+.contenedor-boton{
+    background-color: rgb(39, 182, 20);
+    border: 3px solid white;
+    position: fixed;
+    z-index: 9;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.contenedor-boton:hover{
+    transform: scale(1.1);
+    transition: ease 0.3s;
+}
+
+.boton{
+    width: 100px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgb(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgb(0, 0, 0, 0);
+    }
+}
